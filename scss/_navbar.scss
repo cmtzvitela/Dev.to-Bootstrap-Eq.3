@@ -1,8 +1,13 @@
-.site-logo {
+navbar-brand.site-logo {
 
     a {
         color:none;
         text-decoration: none;
     }
     
+}
+
+.block-position {
+    position: absolute;
+    left: 80px;
 }
