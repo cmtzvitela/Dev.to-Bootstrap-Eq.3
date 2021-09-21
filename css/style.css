@@ -15,3 +15,10 @@ navbar-brand.site-logo a {
 .block-position input {
   width: 350px;
 }
+
+.button-search {
+  position: relative;
+  right: 50px;
+  border-color: transparent;
+  background: transparent;
+}
