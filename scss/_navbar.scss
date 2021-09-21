@@ -23,3 +23,30 @@ navbar-brand.site-logo {
     background: transparent;
 }
 
+.button-login {
+    button {
+        color: #3b49df;
+        border: none;
+        background: white;
+        font-weight: 600;
+
+    }
+    :hover {
+        background-color:#efefef;
+        color: #3b49df;
+    }
+}
+
+.button-create {
+    button {
+        color:white;
+        border:none;
+        background: #3b49df;
+        font-weight: 600;
+    }
+    :hover {
+        background: #1827ce;
+        color: white;
+    }
+
+}
