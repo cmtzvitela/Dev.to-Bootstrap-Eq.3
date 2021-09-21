@@ -11,3 +11,7 @@ navbar-brand.site-logo a {
   position: absolute;
   left: 80px;
 }
+
+.block-position input {
+  width: 350px;
+}
