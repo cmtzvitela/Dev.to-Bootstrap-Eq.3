@@ -1,1 +1,1 @@
-{"version":3,"sources":["../scss/_config.scss","../scss/style.scss","../scss/_seccion_derecha.scss"],"names":[],"mappings":"AAAA;EACC,SAAA;EACA,UAAA;EACA,sBAAA;ACCD;;ACHA;EACC,YFKS;EEJT,gBFGS;ACGV;ACLC;EACC,WFGQ;ACIV","file":"style.css"}
+{"version":3,"sources":["../scss/_config.scss","../scss/style.scss"],"names":[],"mappings":"AAAA;EACC,SAAA;EACA,UAAA;EACA,sBAAA;ACCD","file":"style.css"}
