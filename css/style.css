@@ -14,4 +14,82 @@ li {
 
 h2 {
   font-size: 16px;
+}
+
+/*.container {
+    max-width: 240px;
+    position: absolute;
+    height: 24px; 
+    padding: 8px 8px 8px 8px;
+ }*/
+.aside_items:hover {
+  background-color: rgba(9, 9, 9, 0.05);
+  border-radius: 6px;
+  color: blue;
+}
+
+#sociales {
+  display: flex;
+  justify-content: flex-start;
+  margin: 24px 0;
+}
+#sociales svg {
+  fill: #717171;
+}
+#sociales svg:hover {
+  fill: #575757;
+}
+
+navbar-brand.site-logo a {
+  color: none;
+  text-decoration: none;
+}
+
+.block-position {
+  position: absolute;
+  left: 80px;
+}
+.block-position input {
+  width: 350px;
+}
+
+.button-search {
+  position: relative;
+  right: 50px;
+  border-color: transparent;
+  background: transparent;
+}
+
+.button-login button {
+  color: #3b49df;
+  border: none;
+  background: #fff;
+  font-weight: 600;
+}
+.button-login :hover {
+  background-color: #efefef;
+  color: #3b49df;
+}
+
+.button-create button {
+  color: #fff;
+  border: none;
+  background: #3b49df;
+  font-weight: 600;
+}
+.button-create :hover {
+  background: #1827ce;
+  color: #fff;
+}
+
+.footer {
+  margin-top: 8em;
+  background-color: #d6d6d7;
+  padding: 48px;
+}
+
+@media (max-width: 767px) {
+  .block-position input {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
