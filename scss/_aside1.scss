@@ -1,0 +1,28 @@
+
+
+/*.container {
+    max-width: 240px;
+    position: absolute;
+    height: 24px; 
+    padding: 8px 8px 8px 8px;
+ }*/
+
+
+.aside_items:hover {
+    background-color: rgba(9, 9, 9, 0.05);
+    border-radius: 6px;
+    color:blue;
+}
+
+#sociales {
+    display: flex;
+    justify-content: flex-start;
+    margin: 24px 0;
+
+    svg { 
+        fill: rgb(113, 113, 113);
+        &:hover{
+            fill:#575757;
+        }
+    }
+}
