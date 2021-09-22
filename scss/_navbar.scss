@@ -10,6 +10,18 @@ navbar-brand.site-logo {
     }
     
 }
+.left-bar {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;   
+    
+    button {
+        margin: 0 10px 0 0;
+    }
+
+}
 
 .block-position {
     position: absolute;
@@ -27,18 +39,9 @@ navbar-brand.site-logo {
     background: transparent;
 }
 
-.button-login {
-    button {
-        color: $ColorDecorated;
-        border: none;
-        background: $ColorStandar;
-        font-weight: 600;
 
-    }
-    :hover {
-        background-color:$HoverColor;
-        color: $ColorDecorated;
-    }
+.login-crate {
+    margin-right: 30px;
 }
 
 .button-create {
@@ -54,3 +57,18 @@ navbar-brand.site-logo {
     }
 
 }
+
+/*.button-login {
+    button {
+        color: $ColorDecorated;
+        border: none;
+        background: $ColorStandar;
+        font-weight: 600;
+
+    }
+    :hover {
+        background-color:$HoverColor;
+        color: $ColorDecorated;
+    }
+}
+*/
