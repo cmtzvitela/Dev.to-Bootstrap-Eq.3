@@ -31,10 +31,10 @@
             </svg>
           </a>
           <!-- Clase controladora para el incono search y la barra de texto -->
-          <div class="block-position">
+          <div class="block-position d-none d-md-block d-xxl-none">
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
-              <button type="submit" aria-label="Search" class="button-search">
+              <button type="submit" aria-label="Search" class="button-search d-none d-md-block d-xxl-none">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="crayons-icon">
                   <path
                     d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 
@@ -43,21 +43,17 @@
                   </path>
                 </svg>
               </button>
+              
           </div>
           <!-- Fin de la clase block-position -->
 
           <div class="login-create">
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-              <div class="button-login">
-                <button class="btn btn-outline me-md-2" type="submit">
-                  Log in
-                </button>
-              </div>
               <div class="button-create">
                 <button class="btn btn-outline" type="submit">
-                  Create account
+                  Create post
                 </button>
               </div>
+
             </div>
           </div>
           </form>
