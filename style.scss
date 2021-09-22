@@ -2,9 +2,9 @@
     margin: 0;
 }
 
-@import './config';
+@import "./config";
 @import "./scss/_navbar.scss";
 @import "./scss/_footer.scss";
-@import "./scss/responsive/movile";
-@import "./scss/responsive/tablet";
-@import './seccion_derecha';
+@import "./scss/responsive/_movile.scss";
+@import "./scss/responsive/_tablet.scss";
+@import "/scss/_seccion_derecha.scss";
