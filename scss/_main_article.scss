@@ -1,0 +1,52 @@
+.colors {
+    border-radius: 6px;
+    width: fit-content;
+    
+    .method {
+        border-radius: 6px;
+        width: fit-content;
+        padding: $paddingbottom;
+        margin: $marginbottom;
+    }
+    .javascript{
+        background-color: #F7DF1E;
+        border-radius: 6px;
+        width: fit-content; 
+        padding: $paddingbottom;
+        margin: $marginbottom;
+        
+    }
+    .begginers {
+        background-color: #008335;
+        border-radius: 6px;
+        width: fit-content;
+        padding: $paddingbottom;
+        margin: $marginbottom;
+        
+    }
+    .red {
+        background-color: #F53900;
+        border-radius: 6px;
+        width: fit-content;
+        padding: $paddingbottom;
+        margin: $marginbottom;
+
+    }
+}
+
+.nombre {
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+    p {
+        font-size: 16px;
+    }
+    span {
+        font-size: 14px;
+    }
+}
+
+.code {
+    height: 72px;
+    width: 536px;
+}
