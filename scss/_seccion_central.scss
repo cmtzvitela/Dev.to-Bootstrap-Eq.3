@@ -25,14 +25,16 @@
     }
 
     .central_nav {
-        li a {
+        li {
         display: inline;
         justify-content: flex-start;
-        font-weight: bold;
-        &hover: border-bottom: 5px solid;
+
+        &:hover {
+            border-bottom: 5px solid;
+        }
         }
         .active_li {
-            background-color: blue;
+            font-weight: bold;
         }
     }
 }

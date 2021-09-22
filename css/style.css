@@ -149,11 +149,32 @@ navbar-brand.site-logo a {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  font-weight: bold;
+}
+
+.seccion_central .central_nav li:hover {
+  border-bottom: 5px solid;
 }
 
 .seccion_central .central_nav .active_li {
-  background-color: blue;
+  font-weight: bold;
+}
+
+.derecha_articulo {
+  width: 30%;
+}
+
+.aside_derecho .card {
+  border-top: 36px solid blue;
+}
+
+.aside_derecho .profile_pic {
+  border-radius: 50%;
+  width: 80px;
+}
+
+.aside_derecho .username {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 @media (max-width: 767px) {
