@@ -111,4 +111,8 @@ navbar-brand.site-logo a {
   .block-position input {
     display: none;
   }
+  .block-position svg {
+    display: none;
+    visibility: hidden;
+  }
 }
