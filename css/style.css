@@ -66,6 +66,17 @@ navbar-brand.site-logo a {
   text-decoration: none;
 }
 
+.left-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+}
+.left-bar button {
+  margin: 0 10px 0 0;
+}
+
 .block-position {
   position: absolute;
   left: 80px;
@@ -81,15 +92,8 @@ navbar-brand.site-logo a {
   background: transparent;
 }
 
-.button-login button {
-  color: #3b49df;
-  border: none;
-  background: #fff;
-  font-weight: 600;
-}
-.button-login :hover {
-  background-color: #efefef;
-  color: #3b49df;
+.login-crate {
+  margin-right: 30px;
 }
 
 .button-create button {
@@ -103,6 +107,20 @@ navbar-brand.site-logo a {
   color: #fff;
 }
 
+/*.button-login {
+    button {
+        color: $ColorDecorated;
+        border: none;
+        background: $ColorStandar;
+        font-weight: 600;
+
+    }
+    :hover {
+        background-color:$HoverColor;
+        color: $ColorDecorated;
+    }
+}
+*/
 .big-card {
   background: #323da3;
   color: #fff;
@@ -111,13 +129,37 @@ navbar-brand.site-logo a {
   justify-content: center;
   align-items: center;
   text-align: center;
+  height: 65vh;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  margin-top: 100px;
 }
-.big-card button .x-btn {
-  background: #333;
+.big-card h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+.big-card img {
+  width: auto;
+  height: 100px;
+}
+.big-card button {
+  background: transparent;
+  align-self: flex-end;
+  margin-right: 10px;
+  padding: 5px;
+  border: none;
+}
+.big-card .card-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  padding: 1rem;
 }
 .big-card .card-title img {
   width: auto;
-  height: 20px;
+  height: 28px;
 }
 
 .row {
@@ -130,12 +172,16 @@ navbar-brand.site-logo a {
   padding: 48px;
 }
 
-@media (max-width: 767px) {
-  .block-position input {
-    display: none;
-  }
-  .block-position svg {
-    display: none;
-    visibility: hidden;
-  }
-}/*# sourceMappingURL=style.css.map */
+/*@media (max-width:767px) {
+    .block-position {
+        input {
+            display: none;
+        }
+        svg {
+            display: none;
+            visibility: hidden;
+        }
+    }
+
+}
+*//*# sourceMappingURL=style.css.map */
