@@ -1,0 +1,52 @@
+navbar-brand.site-logo {
+
+    a {
+        color:none;
+        text-decoration: none;
+    }
+    
+}
+
+.block-position {
+    position: absolute;
+    left: 80px;
+
+    input {
+        width: 350px;
+    }
+}
+
+.button-search {
+    position: relative;
+    right: 50px;
+    border-color: transparent;
+    background: transparent;
+}
+
+.button-login {
+    button {
+        color: $ColorDecorated;
+        border: none;
+        background: $ColorStandar;
+        font-weight: 600;
+
+    }
+    :hover {
+        background-color:$HoverColor;
+        color: $ColorDecorated;
+    }
+}
+
+.button-create {
+    button {
+        color:$ColorStandar;
+        border:none;
+        background: $ColorDecorated;
+        font-weight: 600;
+    }
+    :hover {
+        background: $HoverStrongColor;
+        color: $ColorStandar;
+    }
+
+}
