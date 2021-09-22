@@ -1,5 +1,3 @@
-
-
 /*.container {
     max-width: 240px;
     position: absolute;
@@ -7,11 +5,10 @@
     padding: 8px 8px 8px 8px;
  }*/
 
-
 .aside_items:hover {
     background-color: rgba(9, 9, 9, 0.05);
     border-radius: 6px;
-    color:blue;
+    color: blue;
 }
 
 #sociales {
@@ -19,10 +16,22 @@
     justify-content: flex-start;
     margin: 24px 0;
 
-    svg { 
+    svg {
         fill: rgb(113, 113, 113);
-        &:hover{
-            fill:#575757;
+        &:hover {
+            fill: #575757;
+        }
+    }
+}
+
+.seccion-izquierda {
+    
+    ul {
+        padding: 0;
+        margin-top: 4rem;
+
+        li {
+            padding: 5px;
         }
     }
 }
