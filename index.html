@@ -435,8 +435,27 @@
                 </div>
 
                 <div class="icon-user p-2">
-                  <img src="assets/icons/user-circle.svg"> 
-                  
+                  <div class="dropdown">
+                    <input type="image"  src="assets/icons/user-circle.svg" class="dropdown-toggle" 
+                    data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                    </input>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                        <li>
+                         <div>
+                           <h5 class="card-title">Nombre usuario</h5>
+                           <h6 class="card-subtitle mb-2 text-muted">Usuario ID</h6>
+                         </div>
+                        </li>
+                        <div class="dropdown-divider"></div>
+                        <li><a class="dropdown-item h6" href="#">Dashboard</a></li>
+                        <li><a class="dropdown-item h6" href="#">Create Post</a></li>
+                        <li><a class="dropdown-item h6" href="#">Reading List</a></li>
+                        <li><a class="dropdown-item h6" href="#">Settings</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item h6" href="#">Sing Out</a></li>
+                      </ul>
+                    </div>
+                 <!--<img src="assets/icons/user-circle.svg">-->  
                 </div>
           </div>
           </form>
