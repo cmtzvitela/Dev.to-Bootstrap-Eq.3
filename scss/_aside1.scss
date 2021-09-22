@@ -1,22 +1,28 @@
-body {
-    margin: auto;
-    max-width: 1280px;
-    padding-top: 56px;  
-  }
 
-li {
-    list-style: none;
-}
 
-.container {
+/*.container {
     max-width: 240px;
     position: absolute;
     height: 24px; 
     padding: 8px 8px 8px 8px;
-}
+ }*/
 
-.col-12:hover {
+
+.aside_items:hover {
     background-color: rgba(9, 9, 9, 0.05);
     border-radius: 6px;
     color:blue;
+}
+
+#sociales {
+    display: flex;
+    justify-content: flex-start;
+    margin: 24px 0;
+
+    svg { 
+        fill: rgb(113, 113, 113);
+        &:hover{
+            fill:#575757;
+        }
+    }
 }
