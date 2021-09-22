@@ -6,6 +6,11 @@
 
 body {
   width: 100%;
+  background-color: #efefef;
+}
+
+.hero-content {
+  min-height: 75vh;
 }
 
 li {
@@ -14,6 +19,10 @@ li {
 
 h2 {
   font-size: 16px;
+}
+
+footer {
+  min-height: 25vh;
 }
 
 /*.container {
@@ -46,6 +55,10 @@ h2 {
 }
 .seccion-izquierda ul li {
   padding: 5px;
+}
+
+.container-fluid {
+  padding-right: 0;
 }
 
 navbar-brand.site-logo a {
@@ -90,22 +103,39 @@ navbar-brand.site-logo a {
   color: #fff;
 }
 
+.big-card {
+  background: #323da3;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.big-card button .x-btn {
+  background: #333;
+}
+.big-card .card-title img {
+  width: auto;
+  height: 20px;
+}
+
+.row {
+  padding: 0;
+}
+
 .footer {
   margin-top: 8em;
   background-color: #d6d6d7;
   padding: 48px;
 }
 
-.mike {
-  width: 400px;
-  background: peru;
-}
-.mike h1 {
-  color: #333;
-}
-
 @media (max-width: 767px) {
   .block-position input {
     display: none;
   }
-}
+  .block-position svg {
+    display: none;
+    visibility: hidden;
+  }
+}/*# sourceMappingURL=style.css.map */
