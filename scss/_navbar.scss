@@ -10,6 +10,18 @@ navbar-brand.site-logo {
     }
     
 }
+.left-bar {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;   
+    
+    button {
+        margin: 0 10px 0 0;
+    }
+
+}
 
 .block-position {
     position: absolute;
@@ -26,6 +38,7 @@ navbar-brand.site-logo {
     border-color: transparent;
     background: transparent;
 }
+
 
 .login-crate {
     margin-right: 30px;
