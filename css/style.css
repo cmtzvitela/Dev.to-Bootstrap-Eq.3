@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -29,13 +30,19 @@ h2 {
 }
 
 #sociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   margin: 24px 0;
 }
+
 #sociales svg {
   fill: #717171;
 }
+
 #sociales svg:hover {
   fill: #575757;
 }
@@ -44,6 +51,7 @@ h2 {
   padding: 0;
   margin-top: 4rem;
 }
+
 .seccion-izquierda ul li {
   padding: 5px;
 }
@@ -57,6 +65,7 @@ navbar-brand.site-logo a {
   position: absolute;
   left: 80px;
 }
+
 .block-position input {
   width: 350px;
 }
@@ -74,6 +83,7 @@ navbar-brand.site-logo a {
   background: #fff;
   font-weight: 600;
 }
+
 .button-login :hover {
   background-color: #efefef;
   color: #3b49df;
@@ -85,6 +95,7 @@ navbar-brand.site-logo a {
   background: #3b49df;
   font-weight: 600;
 }
+
 .button-create :hover {
   background: #1827ce;
   color: #fff;
@@ -100,11 +111,54 @@ navbar-brand.site-logo a {
   width: 400px;
   background: peru;
 }
+
 .mike h1 {
   color: #333;
+}
+
+.seccion_central .profile_pic {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.seccion_central span {
+  font-size: 14px;
+}
+
+.seccion_central h3, .seccion_central a {
+  text-decoration: none;
+  color: black;
+}
+
+.seccion_central li {
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.seccion_central .card {
+  margin-top: 10px;
+}
+
+.seccion_central .username {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.seccion_central .central_nav li {
+  display: inline;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-weight: bold;
+}
+
+.seccion_central .central_nav .active_li {
+  background-color: blue;
 }
 
 @media (max-width: 767px) {
   .block-position input {
     display: none;
   }
+}
+/*# sourceMappingURL=style.css.map */
