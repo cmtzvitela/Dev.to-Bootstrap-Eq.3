@@ -25,28 +25,28 @@ navbar-brand.site-logo {
 
 .button-login {
     button {
-        color: #3b49df;
+        color: $ColorDecorated;
         border: none;
-        background: white;
+        background: $ColorStandar;
         font-weight: 600;
 
     }
     :hover {
-        background-color:#efefef;
-        color: #3b49df;
+        background-color:$HoverColor;
+        color: $ColorDecorated;
     }
 }
 
 .button-create {
     button {
-        color:white;
+        color:$ColorStandar;
         border:none;
-        background: #3b49df;
+        background: $ColorDecorated;
         font-weight: 600;
     }
     :hover {
-        background: #1827ce;
-        color: white;
+        background: $HoverStrongColor;
+        color: $ColorStandar;
     }
 
 }
