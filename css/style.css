@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -38,13 +39,19 @@ footer {
 }
 
 #sociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   margin: 24px 0;
 }
+
 #sociales svg {
   fill: #717171;
 }
+
 #sociales svg:hover {
   fill: #575757;
 }
@@ -53,6 +60,7 @@ footer {
   padding: 0;
   margin-top: 4rem;
 }
+
 .seccion-izquierda ul li {
   padding: 5px;
 }
@@ -66,10 +74,33 @@ navbar-brand.site-logo a {
   text-decoration: none;
 }
 
+.left-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2px;
+}
+
+.left-bar button {
+  margin: 0 10px 0 0;
+}
+
 .block-position {
   position: absolute;
   left: 80px;
+  bottom: 13px;
 }
+
 .block-position input {
   width: 350px;
 }
@@ -81,15 +112,8 @@ navbar-brand.site-logo a {
   background: transparent;
 }
 
-.button-login button {
-  color: #3b49df;
-  border: none;
-  background: #fff;
-  font-weight: 600;
-}
-.button-login :hover {
-  background-color: #efefef;
-  color: #3b49df;
+.login-crate {
+  margin-right: 30px;
 }
 
 .button-create button {
@@ -98,23 +122,54 @@ navbar-brand.site-logo a {
   background: #3b49df;
   font-weight: 600;
 }
+
 .button-create :hover {
   background: #1827ce;
   color: #fff;
 }
 
+.icon-user {
+  width: 40px;
+  height: 40px;
+}
+
+/*.button-login {
+    button {
+        color: $ColorDecorated;
+        border: none;
+        background: $ColorStandar;
+        font-weight: 600;
+
+    }
+    :hover {
+        background-color:$HoverColor;
+        color: $ColorDecorated;
+    }
+}
+*/
 .big-card {
   background: #323da3;
   color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
 }
+
 .big-card button .x-btn {
   background: #333;
 }
+
 .big-card .card-title img {
   width: auto;
   height: 20px;
@@ -130,12 +185,16 @@ navbar-brand.site-logo a {
   padding: 48px;
 }
 
-@media (max-width: 767px) {
-  .block-position input {
-    display: none;
-  }
-  .block-position svg {
-    display: none;
-    visibility: hidden;
-  }
-}/*# sourceMappingURL=style.css.map */
+/*@media (max-width:767px) {
+    .block-position {
+        input {
+            display: none;
+        }
+        svg {
+            display: none;
+            visibility: hidden;
+        }
+    }
+
+}
+*/
