@@ -37,15 +37,15 @@ footer {
   color: blue;
 }
 
-#sociales {
+.sociales {
   display: flex;
   justify-content: flex-start;
   margin: 24px 0;
 }
-#sociales svg {
+.sociales svg {
   fill: #717171;
 }
-#sociales svg:hover {
+.sociales svg:hover {
   fill: #575757;
 }
 
