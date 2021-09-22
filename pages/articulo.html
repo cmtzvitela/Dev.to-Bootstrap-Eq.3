@@ -12,17 +12,17 @@
     <!-- Nav -->
     <div class="izquierda"></div>
     <!-- Manuel -->
-    <div class="row articulo_central">
-        <div class=" col-6 article_wrapper">
+  
+        <div class=" col-6 article_wrapper mx-auto">
             <div class="first_article_container">
-                <div class="article_header">
+                <div class="article_header ">
                     <div class="col-12 article_img">
-                        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Jh141emE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f8a4d5fij98zqsteb2i7.png" width="1000" height="420" style="background-color:#dddddd;" class="crayons-article__cover__image" alt="Cover image for JavaScript">
+                        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Jh141emE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f8a4d5fij98zqsteb2i7.png" width="720" height="302" style="background-color:#dddddd;" class="crayons-article__cover__image" alt="Cover image for JavaScript">
                     </div>
                     <div class="col-12">
                         <h1>JavaScript</h1>
                     </div>
-                    <div class="row colors">
+                    <div class="row colors my-3">
                         <div class="col-2 method ">#method</div>
                         <div class=" col-3 javascript ">#javascript</div>
                         <div class="col-3 begginers">#begginers</div>
@@ -33,29 +33,77 @@
                             <img class="crayons-avatar__image rounded-circle" src="https://res.cloudinary.com/practicaldev/image/fetch/s--gQgZ7-2z--/c_fill,f_auto,fl_progressive,h_50,q_auto,w_50/https://dev-to-uploads.s3.amazonaws.com/uploads/user/profile_image/706825/97093e60-b3f0-4dd5-947b-82477775a94e.jpeg" alt="">
                         </div>
                         <div class="col-1 nombre">
-                            <a href="#" class="text-decoration-none text-dark">Hanna</a>
+                            <a href="#" class="text-decoration-none text-dark hanna">     Hanna</a>
                         </div>
                         <div class="col-3 nombre ">
                             <span>21 sep. ・2 min read</span>
                         </div>
                     </div>
                 </div>
-                <div class="article_main">
-                    <div class="article_text">
-                        <p>Well, that's the beginning. Here are some examples of using JavaScript.</p>
+                <div class="article_main mx-auto">
+                    <div class="article_text my-5">
+                        <p class="first_coment">Well, that's the beginning. Here are some examples of using JavaScript.</p>
                         <a href="#">
-                            <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--KzkYdXNI--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ekytvr8wmg1x8a33kjkj.png" alt="Alt Text" loading="lazy">
+                            <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--KzkYdXNI--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ekytvr8wmg1x8a33kjkj.png" class="codigo" alt="Alt Text" loading="lazy">
                         </a>
-                        <div class="col-12 bg-dark code ">
+                        <div class="col-12 col-sm-4 bg-dark code ">
                             <code>document.getElementById() </code> 
                         </div>
-                        <p style>
+                        <div class="col-12 col-sm-4">
+                            <p style>
                             Returns the element that has the ID attribute with the specified value.
                             <br>
 This method is one of the most common methods in the HTML DOM, and is used almost every time you want to manipulate, or get info from, an element on your document.
                         </p>
+                        </div>    
+                        <div class="col-12  col-sm-4 bg-dark code ">
+                            <code> document.createElement() <br>
+                                .innerHTML <br>
+                                .innerText
+                            </code>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <p style>
+                                Creates an Element Node with the specified name.
+    Both innerText and innerHTML return internal part of an HTML element.
+    The only difference between innerText and innerHTML is that: innerText return HTML element (entire code) as a string and display HTML element on the screen (as HTML code), while innerHTML return only text content of the HTML element.
+                            </p>
+                        </div>                      
+                        <div class="col-12 col-sm-4 bg-dark code ">
+                            <code>document.querySelector()</code>
+                        </div> 
+                        <div class="col-12 col-sm-4">
+                            <p style>
+                                querySelector() returns the first element that matches a specified CSS selector(s) in the document. querySelector() only returns the first element that matches the specified selectors. To return all the matches, use querySelectorAll() instead.
+                            </p> 
+                        </div>
+                       
+                        <div class="col-12 col-sm-4 bg-dark code ">
+                            <code>document.addEventListener(); <br>
+                                document.addEventListener("mouseover", myFunction); <br>
+                                document.addEventListener("click", someOtherFunction); <br>
+                                document.addEventListener("mouseout", someOtherFunction);
+                            </code>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <p style>
+                                Attaches an event handler to the document.
+                                Use document.removeEventListener() to remove an event handler that has been attached with document.addEventListener(). Use element.addEventListener() to attach an event handler to a specified element.
+                            </p>
+                        </div>                     
+                        <div class="col-12 col-sm-4 bg-dark code ">
+                            <code>document.appendChild()</code>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <p style>
+                            Appends a node as the last child of a node. This method can be used to move an element from one element to another. <br>
+                            <span>SCRIPT in the HEAD or in the BODY of HTML</span> <br>
+                            When JavaScript is placed at the bottom of HTML body, it gives the HTML time to load before any of the JavaScript loads, which can prevent errors, and speed up website response time.
+                            But putting JavaScript in the head of HTML doesn’t ALWAYS cause errors.
+                            </p>
+                        </div>                                            
+                        </div>   
                     </div>
-                </div>
             </div>
         </div>
     </div>
