@@ -27,4 +27,10 @@ $colorbg: peru;
 $widthH1: 400px;
 $colorH1: #333;
 
-$margintoplist: 4rem;
+$paddingbottom: 1px;
+$marginbottom: 0 5px;
+
+@mixin bordercolorbottom {
+    border-radius: 6px;
+    width: fit-content;
+}
