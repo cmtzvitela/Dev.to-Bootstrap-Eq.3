@@ -163,8 +163,14 @@ navbar-brand.site-logo a {
   width: 30%;
 }
 
+.aside_derecho {
+  position: -webkit-sticky;
+  position: sticky;
+  margin-top: 10px;
+}
+
 .aside_derecho .card {
-  border-top: 36px solid blue;
+  border-top: 36px solid #160533;
 }
 
 .aside_derecho .profile_pic {
@@ -175,6 +181,46 @@ navbar-brand.site-logo a {
 .aside_derecho .username {
   font-weight: bold;
   font-size: 20px;
+}
+
+.aside_derecho .crayons-btn {
+  background-color: #476fbf;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  max-width: 80%;
+  margin: 0 auto;
+  height: 35px;
+  margin-top: 10px;
+}
+
+.aside_derecho .crayons-btnhover {
+  background-color: #446dbe;
+}
+
+.more_from {
+  margin-top: 15px;
+}
+
+.more_from .more_user {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.more_from .more_user a {
+  text-decoration: none;
+}
+
+.more_from .tags {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.more_from .tags a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
 }
 
 @media (max-width: 767px) {

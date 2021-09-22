@@ -2,9 +2,10 @@
     width: 30%;
 }
 .aside_derecho {
-
+    position: sticky;
+     margin-top: 10px;
     .card{
-        border-top: 36px solid blue;
+        border-top: 36px solid #160533;
 
     }
     .profile_pic{
@@ -15,4 +16,38 @@
         font-weight: bold;
         font-size: 20px;
     }
+    .crayons-btn {
+        background-color: #476fbf;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        max-width: 80%;
+        margin: 0 auto;
+        height: 35px;
+        margin-top: 10px;
+        &hover {
+            background-color: darken($color: #476fbf, $amount: 0.8);
+        }
+    }
+}
+
+.more_from {
+    margin-top: 15px;
+    .more_user {
+        font-size: 20px;
+        font-weight: bold;
+        a{
+            text-decoration: none;
+        }
+    }
+    .tags {
+        display: inline-flex;
+        a {
+            text-decoration: none;
+            color: black;
+            margin-right: 10px;
+        }
+    }
+
+
 }
