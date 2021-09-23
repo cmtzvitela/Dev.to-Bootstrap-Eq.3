@@ -119,6 +119,12 @@ navbar-brand.site-logo a {
   color: #fff;
 }
 
+.login-create img {
+  vertical-align: middle;
+  width: auto;
+  height: 23px;
+}
+
 /*.button-login {
     button {
         color: $ColorDecorated;
