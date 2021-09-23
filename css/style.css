@@ -258,7 +258,7 @@ navbar-brand.site-logo a {
 }
 
 .nombre span {
-  font-size: 14px;
+  font-size: 12px;
   margin-left: 15px;
 }
 
@@ -304,6 +304,10 @@ h1 {
   min-width: 650px;
   max-width: 678px;
   padding: 0 50px;
+}
+
+span {
+  font-size: 20px;
 }
 
 @media screen and (max-width: 720px) {

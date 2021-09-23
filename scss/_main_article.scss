@@ -46,7 +46,7 @@
         font-weight: bold;
     }
     span {
-        font-size: 14px;
+        font-size: 12px;
         margin-left: 15px;
     }
 }
@@ -94,6 +94,10 @@ padding: 0 20px;
 min-width: 650px;
 max-width: 678px;
 padding: 0 50px;
+}
+
+span {
+font-size: 20px;
 }
 
 @media screen and (max-width:720px) { 
