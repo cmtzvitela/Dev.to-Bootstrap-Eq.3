@@ -41,6 +41,9 @@ footer {
   display: flex;
   justify-content: flex-start;
   margin: 24px 0;
+  margin-top: 24px;
+  justify-content: start;
+  margin-left: -20px;
 }
 .sociales svg {
   fill: #717171;
@@ -55,6 +58,15 @@ footer {
 }
 .seccion-izquierda ul li {
   padding: 5px;
+}
+
+#hashtags {
+  padding: 12px;
+  margin-top: 0;
+}
+
+.tercero {
+  padding: 5px 0px 0px 15px;
 }
 
 .container-fluid {
@@ -172,6 +184,91 @@ navbar-brand.site-logo a {
   padding: 48px;
 }
 
+.seccion_central .profile_pic {
+  border-radius: 50%;
+  width: 50px;
+}
+.seccion_central span {
+  font-size: 14px;
+}
+.seccion_central h3, .seccion_central a {
+  text-decoration: none;
+  color: black;
+}
+.seccion_central li {
+  display: inline-block;
+  margin-right: 6px;
+}
+.seccion_central .card {
+  margin-top: 10px;
+}
+.seccion_central .username {
+  font-weight: bold;
+  font-size: 18px;
+}
+.seccion_central .central_nav li {
+  display: inline;
+  justify-content: flex-start;
+}
+.seccion_central .central_nav li:hover {
+  border-bottom: 5px solid;
+}
+.seccion_central .central_nav .active_li {
+  font-weight: bold;
+}
+
+.derecha_articulo {
+  width: 30%;
+}
+
+.aside_derecho {
+  position: sticky;
+  margin-top: 10px;
+}
+.aside_derecho .card {
+  border-top: 36px solid #160533;
+}
+.aside_derecho .profile_pic {
+  border-radius: 50%;
+  width: 80px;
+}
+.aside_derecho .username {
+  font-weight: bold;
+  font-size: 20px;
+}
+.aside_derecho .crayons-btn {
+  background-color: #476fbf;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  max-width: 80%;
+  margin: 0 auto;
+  height: 35px;
+  margin-top: 10px;
+}
+.aside_derecho .crayons-btnhover {
+  background-color: #446dbe;
+}
+
+.more_from {
+  margin-top: 15px;
+}
+.more_from .more_user {
+  font-size: 20px;
+  font-weight: bold;
+}
+.more_from .more_user a {
+  text-decoration: none;
+}
+.more_from .tags {
+  display: inline-flex;
+}
+.more_from .tags a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+
 /*@media (max-width:767px) {
     .block-position {
         input {
@@ -184,4 +281,62 @@ navbar-brand.site-logo a {
     }
 
 }
-*//*# sourceMappingURL=style.css.map */
+*/
+.colors {
+  border-radius: 6px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.colors .method {
+  border-radius: 6px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1px;
+  margin: 0 5px;
+}
+.colors .javascript {
+  background-color: #F7DF1E;
+  border-radius: 6px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1px;
+  margin: 0 5px;
+}
+.colors .begginers {
+  background-color: #008335;
+  border-radius: 6px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1px;
+  margin: 0 5px;
+}
+.colors .red {
+  background-color: #F53900;
+  border-radius: 6px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1px;
+  margin: 0 5px;
+}
+
+.nombre {
+  padding: 0;
+  text-align: center;
+  margin-top: 10px;
+}
+.nombre p {
+  font-size: 16px;
+}
+.nombre span {
+  font-size: 14px;
+}
+
+.code {
+  height: 72px;
+  width: 536px;
+}/*# sourceMappingURL=style.css.map */

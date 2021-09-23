@@ -16,6 +16,9 @@
     justify-content: flex-start;
     margin: 24px 0;
 
+    margin-top: 24px;
+    justify-content: start;
+    margin-left: -20px;
     svg {
         fill: rgb(113, 113, 113);
         &:hover {
@@ -36,3 +39,13 @@
     }
 }
 
+#hashtags {
+    
+    padding: 12px;
+    margin-top: 0;
+}   
+
+.tercero {
+    padding: 5px 0px 0px 15px;
+    
+}
