@@ -13,11 +13,11 @@
     <div class="izquierda"></div>
     <!-- Manuel -->
   
-        <div class=" col-6 article_wrapper mx-auto">
-            <div class="first_article_container">
-                <div class="article_header ">
+        <div class=" col-6 article_wrapper mx-auto" id="primero">
+            <div class="col-12 first_article_container bg-light">
+                <div class="col-12 article_header mx-5 ">
                     <div class="col-12 article_img">
-                        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Jh141emE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f8a4d5fij98zqsteb2i7.png" width="720" height="302" style="background-color:#dddddd;" class="crayons-article__cover__image" alt="Cover image for JavaScript">
+                        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Jh141emE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f8a4d5fij98zqsteb2i7.png"  style="background-color:#dddddd;" class="crayons-article__cover__image" alt="Cover image for JavaScript">
                     </div>
                     <div class="col-12">
                         <h1>JavaScript</h1>
@@ -49,11 +49,11 @@
                         <div class="col-12 col-sm-4 bg-dark code ">
                             <code>document.getElementById() </code> 
                         </div>
-                        <div class="col-12 col-sm-4">
+                        <div class="col-12 col-sm-4" id="texto">
                             <p style>
                             Returns the element that has the ID attribute with the specified value.
                             <br>
-This method is one of the most common methods in the HTML DOM, and is used almost every time you want to manipulate, or get info from, an element on your document.
+                            This method is one of the most common methods in the HTML DOM, and is used almost every time you want to manipulate, or get info from, an element on your document.
                         </p>
                         </div>    
                         <div class="col-12  col-sm-4 bg-dark code ">
@@ -62,17 +62,17 @@ This method is one of the most common methods in the HTML DOM, and is used almos
                                 .innerText
                             </code>
                         </div>
-                        <div class="col-12 col-sm-4">
+                        <div class="col-12 col-sm-4" id="texto">
                             <p style>
                                 Creates an Element Node with the specified name.
-    Both innerText and innerHTML return internal part of an HTML element.
-    The only difference between innerText and innerHTML is that: innerText return HTML element (entire code) as a string and display HTML element on the screen (as HTML code), while innerHTML return only text content of the HTML element.
+                                 Both innerText and innerHTML return internal part of an HTML element.
+                                The only difference between innerText and innerHTML is that: innerText return HTML element (entire code) as a string and display HTML element on the screen (as HTML code), while innerHTML return only text content of the HTML element.
                             </p>
                         </div>                      
                         <div class="col-12 col-sm-4 bg-dark code ">
                             <code>document.querySelector()</code>
                         </div> 
-                        <div class="col-12 col-sm-4">
+                        <div class="col-12 col-sm-4" id="texto">
                             <p style>
                                 querySelector() returns the first element that matches a specified CSS selector(s) in the document. querySelector() only returns the first element that matches the specified selectors. To return all the matches, use querySelectorAll() instead.
                             </p> 
@@ -85,7 +85,7 @@ This method is one of the most common methods in the HTML DOM, and is used almos
                                 document.addEventListener("mouseout", someOtherFunction);
                             </code>
                         </div>
-                        <div class="col-12 col-sm-4">
+                        <div class="col-12 col-sm-4" id="texto">
                             <p style>
                                 Attaches an event handler to the document.
                                 Use document.removeEventListener() to remove an event handler that has been attached with document.addEventListener(). Use element.addEventListener() to attach an event handler to a specified element.
@@ -94,7 +94,7 @@ This method is one of the most common methods in the HTML DOM, and is used almos
                         <div class="col-12 col-sm-4 bg-dark code ">
                             <code>document.appendChild()</code>
                         </div>
-                        <div class="col-12 col-sm-4">
+                        <div class="col-12 col-sm-4" id="texto">
                             <p style>
                             Appends a node as the last child of a node. This method can be used to move an element from one element to another. <br>
                             <span>SCRIPT in the HEAD or in the BODY of HTML</span> <br>

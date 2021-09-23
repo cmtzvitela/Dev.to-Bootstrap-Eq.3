@@ -272,6 +272,15 @@ h1 {
   margin-left: 150px;
 }
 
+.article_img {
+  max-width: 806px;
+}
+
+.crayons-article__cover__image {
+  max-width: 725px;
+  margin-left: -50PX;
+}
+
 .article_text {
   margin: auto;
 }
@@ -279,11 +288,27 @@ h1 {
 .code {
   border-radius: 6px;
   margin: 10px;
-  padding: 20px;
+  padding: 20px 20px;
+  min-width: 678px;
 }
 
-p .style {
-  text-align: justify;
-  padding: 15px;
+.first_coment {
+  padding: 0 20px;
+}
+
+.first_article_container {
+  max-width: 720px;
+}
+
+#texto {
+  min-width: 650px;
+  max-width: 678px;
+  padding: 0 50px;
+}
+
+@media screen and (max-width: 720px) {
+  #primero {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
