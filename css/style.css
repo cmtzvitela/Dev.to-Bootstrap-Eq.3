@@ -142,6 +142,7 @@ navbar-brand.site-logo a {
   align-items: center;
   text-align: center;
   height: 65vh;
+  min-width: 90vh;
   width: 100%;
   border: none;
   border-radius: 5px;
@@ -182,6 +183,20 @@ navbar-brand.site-logo a {
   margin-top: 8em;
   background-color: #d6d6d7;
   padding: 48px;
+}
+
+.seccion-derecha {
+  margin: 6.2rem 1rem 1rem 1rem;
+}
+
+.carta-derechas {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .seccion_central .profile_pic {
