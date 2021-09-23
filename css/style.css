@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -30,19 +29,13 @@ h2 {
 }
 
 #sociales {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
   margin: 24px 0;
 }
-
 #sociales svg {
   fill: #717171;
 }
-
 #sociales svg:hover {
   fill: #575757;
 }
@@ -56,7 +49,6 @@ navbar-brand.site-logo a {
   position: absolute;
   left: 80px;
 }
-
 .block-position input {
   width: 350px;
 }
@@ -74,7 +66,6 @@ navbar-brand.site-logo a {
   background: #fff;
   font-weight: 600;
 }
-
 .button-login :hover {
   background-color: #efefef;
   color: #3b49df;
@@ -86,7 +77,6 @@ navbar-brand.site-logo a {
   background: #3b49df;
   font-weight: 600;
 }
-
 .button-create :hover {
   background: #1827ce;
   color: #fff;
@@ -102,7 +92,6 @@ navbar-brand.site-logo a {
   width: 400px;
   background: peru;
 }
-
 .mike h1 {
   color: #333;
 }
@@ -111,4 +100,4 @@ navbar-brand.site-logo a {
   .block-position input {
     display: none;
   }
-}
+}/*# sourceMappingURL=style.css.map */
