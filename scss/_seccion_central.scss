@@ -1,0 +1,40 @@
+.seccion_central {
+    .profile_pic {
+        border-radius: 50%;
+        width: 50px;
+    }
+    span {
+        font-size: 14px;
+    }
+    h3, a{
+        text-decoration: none;
+        color: black;
+    }
+    li {
+        display: inline-block;
+        margin-right: 6px;
+    };
+
+    .card {
+        margin-top: 10px;
+    }
+
+    .username {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .central_nav {
+        li {
+        display: inline;
+        justify-content: flex-start;
+
+        &:hover {
+            border-bottom: 5px solid;
+        }
+        }
+        .active_li {
+            font-weight: bold;
+        }
+    }
+}
