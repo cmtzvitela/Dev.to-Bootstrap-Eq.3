@@ -1,8 +1,13 @@
+.seccion-derecha {
+	margin: 6.2rem 1rem 1rem 1rem;
+}
 
-.mike {
-	width: $widthH1;
-	background: $colorbg;
-	h1 {
-		color: $colorH1;
-	}
+.carta-derechas {
+	width: 100%;
+	padding: 10px;
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
